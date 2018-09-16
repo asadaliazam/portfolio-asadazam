@@ -37,9 +37,9 @@ class App extends React.Component {
 
     const sideList = (
       <div className={classes.list}>
-        <List>Asad</List>
+        <List>Projects</List>
         <Divider />
-        <List>Azam</List>
+        <List>Snippets</List>
       </div>
     );
 
