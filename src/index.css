@@ -19,16 +19,146 @@ svg
   color: white;
 }
 
-h2
+header h2
 {
   margin-left: 2rem;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.07rem;
   text-align: center;
   color: white;
+}
+
+header img
+{
+  filter:blur(2px);
 }
 
 img
 {
   max-width: 100%;
   height: auto;
+
+}
+
+
+.landing-header {
+ display: grid;
+ grid-template-columns: 1fr;
+ grid-template-rows: 1fr;
+}
+
+.contact-card {
+ z-index: 10;
+ font-size: 1rem;
+ text-align: center;
+ color: white;
+ letter-spacing: 0.05rem;
+ background-color: rgba(0, 44, 44, 0.4);
+}
+
+.contact-card h2
+{
+  font-size: 2rem;
+}
+
+.contact-card p
+{
+  font-size: 1rem;
+}
+
+.contact-card,
+.landing-picture {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+
+
+.contact-button{
+  background-color: #22556E !important;
+  color: white;
+  align-self: center;
+}
+.contact-button span{
+  color: white;
+  text-transform: none;
+  font-family: 'Tinos', serif;
+  letter-spacing: 0.03rem;
+
+
+}
+
+.contact-button svg
+{
+  margin-left: 0.5rem;
+}
+
+.MuiGrid-container-39
+{
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.skills-section
+{
+  text-align: center;
+  border-bottom: 5px solid #153641;
+  font-size: 1.5rem;
+}
+
+
+.projects-section h2
+{
+  font-size: 2rem;
+  text-align: center;
+}
+
+.icons
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 3rem;
+}
+
+.icon
+{
+  align-self: center;
+}
+
+
+
+h2 span
+{
+  border-bottom: 2px solid #153641;
+}
+
+.project
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-content: center;
+}
+
+.project .project-image
+{
+  margin: auto;
+}
+
+.project-description
+{
+  text-align: center;
+  align-self: center;
+}
+
+
+
+@media screen and (min-width: 1000px)
+{
+
+
+.contact-card {
+  font-size: 2rem;
+
+}
 }
