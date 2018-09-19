@@ -177,7 +177,7 @@ Linkedin
             </div>
             <div className="project-description">
               <h3> Trixie - Dog Training App </h3>
-              <p> A Puzzle Game built with HTML 5 and CSS and jQuery </p>
+              <p> An App built using HTML/CSS for the Front End Designing and jQuery for the Back-End of the project and using Adobe PhoneGap as the development framework. The purpose of the app was to allow dog owners to train their dogs in a way that is cost-free and easily manageable from the comfort of their homes. </p>
             </div>
           </div>
 
@@ -187,7 +187,7 @@ Linkedin
             </div>
             <div className="project-description">
               <h3> Sherry's Shake Shack </h3>
-              <p> A Puzzle Game built with HTML 5 and CSS and jQuery </p>
+              <p> An online store for a small café selling ice-creams and shakes. Using PHP and HTML to develop the content and CSS and SASS to design the structure of the website. Our team managed to create this website in two weeks and it can be viewed live at <a href="http://lakshaysachdeva.website/final-project/"</a>" </p>
             </div>
           </div>
 
@@ -207,7 +207,7 @@ Linkedin
             </div>
             <div className="project-description">
               <h3> Eduvisors </h3>
-              <p> A Puzzle Game built with HTML 5 and CSS and jQuery </p>
+              <p> Developed a student advisory system using ExpressJS and SQLite as the backend and ReactJS for the front-end. The Web App allows users to see school recommendations based on their preferences. The site can be viewed live at www.eduvisors.ca. </p>
             </div>
           </div>
 
