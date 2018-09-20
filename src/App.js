@@ -217,7 +217,7 @@ Linkedin
             </div>
             <div className="project-description">
               <h3> Tic-Tac-Toe </h3>
-              <p> A Puzzle Game built with HTML 5 and CSS and jQuery </p>
+              <p> A tic-tac-toe game built with Java SE. The user can play a simple game of tic-tac-toe with a friend by inputting the location of his move. </p>
             </div>
           </div>
 
