@@ -147,7 +147,7 @@ Linkedin
               <img src="./images/projects/golazo.png" alt="golazo icon" />
             </div>
             <div className="project-description">
-              <p> A website built with HTML 5 and CSS 3 </p>
+              <p> A sports news website built with HTML 5 and CSS 3 </p>
             </div>
           </div>
 
@@ -167,7 +167,7 @@ Linkedin
             </div>
             <div className="project-description">
               <h3> 3 x 3 Puzzle Game </h3>
-              <p> A Puzzle Game built with HTML 5 and CSS and jQuery </p>
+              <p> A Puzzle Game built with HTML 5 and CSS and jQuery. The objective of the player is to make the image as described by moving pieces around. </p>
             </div>
           </div>
 
@@ -187,7 +187,7 @@ Linkedin
             </div>
             <div className="project-description">
               <h3> Sherry's Shake Shack </h3>
-              <p> An online store for a small café selling ice-creams and shakes. Using PHP and HTML to develop the content and CSS and SASS to design the structure of the website. Our team managed to create this website in two weeks and it can be viewed live at <a href="http://lakshaysachdeva.website/final-project/"</a>" </p>
+              <p> An online store for a small café selling ice-creams and shakes. Using PHP and HTML to develop the content and CSS and SASS to design the structure of the website. Our team managed to create this website in two weeks and it can be viewed live at </p>
             </div>
           </div>
 
@@ -197,7 +197,7 @@ Linkedin
             </div>
             <div className="project-description">
               <h3> The Eatery Website </h3>
-              <p> A Puzzle Game built with HTML 5 and CSS and jQuery </p>
+              <p> A website built with HTML5 and CSS3 combining the latest modules like FlexBox and Grid </p>
             </div>
           </div>
 
