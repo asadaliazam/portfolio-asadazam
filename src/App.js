@@ -61,7 +61,11 @@ class App extends React.Component {
         </header>
         <div className="landing-header">
           <div className="landing-picture">
-          <img src="./images/headerPicture.jpg" alt="person coding" />
+          <img className="mobile" src="./images/headerPicture1.jpeg" alt="person coding" />
+          <img className="web" src="./images/headerPicture-web.jpg" alt="person coding" />
+
+
+
           </div>
           <div className="contact-card">
             <h2>Asad Azam</h2>
@@ -142,14 +146,22 @@ Linkedin
         <div className="projects-section">
           <h2> <span>Pr</span>ojects </h2>
 
-          <div className="project">
+
+
+          <div className="project" onClick={()=> window.open("http://mylinux.langara.bc.ca/~aazam00/magazine/", "_blank")}>
+
             <div className="project-image">
               <img src="./images/projects/golazo.png" alt="golazo icon" />
             </div>
             <div className="project-description">
+                {/* <a href="http://mylinux.langara.bc.ca/~aazam00/magazine/" target="_blank"> */}
+                  <h3> Golazo - A Magazine for sports lovers </h3>
+                {/* </a> */}
+
               <p> A sports news website built with HTML 5 and CSS 3 </p>
             </div>
           </div>
+
 
           <div className="project">
             <div className="project-image">
@@ -157,7 +169,7 @@ Linkedin
             </div>
             <div className="project-description">
               <h3> Hare and Tortoise Race </h3>
-              <p> A Simulation Game built with HTML 5 and CSS and jQuery </p>
+              <p> A Simulation Game built with HTML 5, CSS and jQuery </p>
             </div>
           </div>
 
@@ -167,13 +179,13 @@ Linkedin
             </div>
             <div className="project-description">
               <h3> 3 x 3 Puzzle Game </h3>
-              <p> A Puzzle Game built with HTML 5 and CSS and jQuery. The objective of the player is to make the image as described by moving pieces around. </p>
+              <p> A Puzzle Game built with HTML 5, CSS and jQuery. The objective of the player is to make the image as described by moving pieces around. </p>
             </div>
           </div>
 
           <div className="project">
             <div className="project-image">
-              <img src="./images/projects/puzzle.png" alt="puzzle icon turtle" />
+              <img src="./images/projects/trixie.png" alt="puzzle icon turtle" />
             </div>
             <div className="project-description">
               <h3> Trixie - Dog Training App </h3>
@@ -183,7 +195,7 @@ Linkedin
 
           <div className="project">
             <div className="project-image">
-              <img src="./images/projects/puzzle.png" alt="puzzle icon turtle" />
+              <img src="./images/projects/sherry.png" alt="puzzle icon turtle" />
             </div>
             <div className="project-description">
               <h3> Sherry's Shake Shack </h3>
@@ -193,7 +205,7 @@ Linkedin
 
           <div className="project">
             <div className="project-image">
-              <img src="./images/projects/puzzle.png" alt="puzzle icon turtle" />
+              <img src="./images/projects/eatery.png" alt="forn and knife icon turtle" />
             </div>
             <div className="project-description">
               <h3> The Eatery Website </h3>
@@ -203,7 +215,7 @@ Linkedin
 
           <div className="project">
             <div className="project-image">
-              <img src="./images/projects/puzzle.png" alt="puzzle icon turtle" />
+              <img src="./images/projects/eduvisors.png" alt="puzzle icon turtle" />
             </div>
             <div className="project-description">
               <h3> Eduvisors </h3>
@@ -213,11 +225,21 @@ Linkedin
 
           <div className="project">
             <div className="project-image">
-              <img src="./images/projects/puzzle.png" alt="puzzle icon turtle" />
+              <img src="./images/projects/tic.png" alt="tic tac toe icon turtle" />
             </div>
             <div className="project-description">
               <h3> Tic-Tac-Toe </h3>
               <p> A tic-tac-toe game built with Java SE. The user can play a simple game of tic-tac-toe with a friend by inputting the location of his move. </p>
+            </div>
+          </div>
+
+          <div className="project">
+            <div className="project-image">
+              <img src="./images/projects/poker.png" alt="poker icon" />
+            </div>
+            <div className="project-description">
+              <h3> Poker Simulator </h3>
+              <p> A poker game simulation built with Java. The user can compare two randomly generated hands of poker and test which hand is better. </p>
             </div>
           </div>
 
