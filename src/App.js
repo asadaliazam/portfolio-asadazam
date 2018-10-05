@@ -74,13 +74,13 @@ class App extends React.Component {
             <p><FontAwesomeIcon icon={faEnvelopeSquare} /> asadaliazam1@gmail.com</p>
             <Grid alignContent='center' container spacing={8}>
   <Grid item xs={4}>
-<Button variant="contained"  className="contact-button">
+<Button onClick={()=> window.open("https://github.com/asadaliazam/", "_blank")} variant="contained"  className="contact-button">
         Github
 <FontAwesomeIcon icon={faGithubSquare} />      </Button>
 </Grid>
 <Grid item xs={4}>
 
-<Button variant="contained" className="contact-button" >
+<Button onClick={()=> window.open("https://www.linkedin.com/in/asadaliazam/", "_blank")} variant="contained" className="contact-button" >
 Linkedin
 <FontAwesomeIcon icon={faLinkedin} />      </Button>
 </Grid>
@@ -148,7 +148,7 @@ Linkedin
 
 
 
-          <div className="project" onClick={()=> window.open("http://mylinux.langara.bc.ca/~aazam00/magazine/", "_blank")}>
+          <div className="project" onClick={()=> window.open("http://asadazam.website/magazine/", "_blank")}>
 
             <div className="project-image">
               <img src="./images/projects/golazo.png" alt="golazo icon" />
@@ -163,7 +163,7 @@ Linkedin
           </div>
 
 
-          <div className="project">
+          <div className="project" onClick={()=> window.open("http://asadazam.website/turtleRace/", "_blank")}>
             <div className="project-image">
               <img src="./images/projects/race.png" alt="race icon turtle" />
             </div>
@@ -173,7 +173,7 @@ Linkedin
             </div>
           </div>
 
-          <div className="project">
+          <div className="project" onClick={()=> window.open("http://asadazam.website/slidingPuzzle/", "_blank")}>
             <div className="project-image">
               <img src="./images/projects/puzzle.png" alt="puzzle icon turtle" />
             </div>
@@ -193,7 +193,7 @@ Linkedin
             </div>
           </div>
 
-          <div className="project">
+          <div className="project" onClick={()=> window.open("http://lakshaysachdeva.website/final-project/", "_blank")}>
             <div className="project-image">
               <img src="./images/projects/sherry.png" alt="puzzle icon turtle" />
             </div>
@@ -203,7 +203,7 @@ Linkedin
             </div>
           </div>
 
-          <div className="project">
+          <div className="project" onClick={()=> window.open("http://asadazam.website/eatery/", "_blank")}>
             <div className="project-image">
               <img src="./images/projects/eatery.png" alt="forn and knife icon turtle" />
             </div>
@@ -213,7 +213,7 @@ Linkedin
             </div>
           </div>
 
-          <div className="project">
+          <div className="project" onClick={()=> window.open("http://www.eduvisors.ca/", "_blank")}>
             <div className="project-image">
               <img src="./images/projects/eduvisors.png" alt="puzzle icon turtle" />
             </div>
