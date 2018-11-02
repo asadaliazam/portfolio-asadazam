@@ -88,6 +88,48 @@ Linkedin
            </div>
         </div>
 
+        <div className="projects-section">
+          <h2> <span>Ab</span>out Me </h2>
+
+
+
+          <div className="project">
+
+            <div className="project-image">
+              <img src="./images/icons/tech.png" alt="golazo icon" />
+            </div>
+            <div className="project-description">
+                  <h3> Tech Enthusiast  </h3>
+                
+              <p> I love reading and experimenting with the latest tech. In my free time, I read articles about new and interesting technologies coming up and how they're going to change the world. </p>
+            </div>
+          </div>
+
+
+          <div className="project" >
+            <div className="project-image">
+              <img src="./images/icons/arsenal.png" alt="race icon turtle" />
+            </div>
+            <div className="project-description">
+              <h3> Football Fanatic </h3>
+              <p> My favoruite club is Arsenal FC and I love playing and watching football.  </p>
+            </div>
+          </div>
+
+          <div className="project" >
+            <div className="project-image">
+              <img src="./images/icons/controller.png" alt="puzzle icon turtle" />
+            </div>
+            <div className="project-description">
+              <h3> Video Game Addict </h3>
+              <p> I love video games specifically strategy games that make me think and plan. </p>
+            </div>
+          </div>
+
+
+          </div>
+
+
         <div className="skills-section">
           <h2> <span>Sk</span>ills </h2>
           <div className = "icons">
