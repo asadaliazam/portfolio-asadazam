@@ -11,6 +11,9 @@ import { faPhoneSquare } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons";
 import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+
+
 import Grid from "@material-ui/core/Grid";
 
 const styles = {
@@ -235,7 +238,7 @@ class App extends React.Component {
               <img src="./images/projects/eventhub.png" alt="eventhub icon" />
             </div>
             <div className="project-description">
-              <h3> EventHub - Personalized Events Aggregator </h3>
+              <h3> EventHub - Personalized Events Aggregator <FontAwesomeIcon icon={faExternalLinkAlt} /> </h3>
               <p>
                 {" "}
                 An event management system built using ReactJS and Serverless
@@ -257,7 +260,7 @@ class App extends React.Component {
                 />
               </div>
               <div className="project-description">
-                <h3> Eduvisors </h3>
+                <h3> Eduvisors <FontAwesomeIcon icon={faExternalLinkAlt} /></h3>
                 <p>
                   {" "}
                   Developed a student advisory system using ExpressJS and SQLite as the backend and ReactJS for the front-end. The Web App allows users to see school recommendations based on their
@@ -277,7 +280,7 @@ class App extends React.Component {
                 />
               </div>
               <div className="project-description">
-                <h3> College Website </h3>
+                <h3> College Website <FontAwesomeIcon icon={faExternalLinkAlt} /></h3>
                 <p>
                   {" "}
                   Developed and Designed a website for a nursing college using WordPress, PHP, HTML and CSS resulting in a better user experience and prompted more interest in the college’s programs.{" "}
@@ -295,7 +298,7 @@ class App extends React.Component {
               <img src="./images/projects/diamondicon.png" alt="golazo icon" />
             </div>
             <div className="project-description">
-              <h3> Diamond Care Care </h3>
+              <h3> Diamond Care Care <FontAwesomeIcon icon={faExternalLinkAlt} /></h3>
               <p> A website for a car detailing shop built with HTML 5 and CSS 3 </p>
             </div>
           </div>
@@ -310,7 +313,7 @@ class App extends React.Component {
               <img src="./images/projects/golazo.png" alt="golazo icon" />
             </div>
             <div className="project-description">
-              <h3> Golazo - A Magazine for sports lovers </h3>
+              <h3> Golazo - A Magazine for sports lovers <FontAwesomeIcon icon={faExternalLinkAlt} /></h3>
               <p> A sports news website built with HTML 5 and CSS 3 </p>
             </div>
           </div>
@@ -325,7 +328,7 @@ class App extends React.Component {
               <img src="./images/projects/race.png" alt="race icon turtle" />
             </div>
             <div className="project-description">
-              <h3> Hare and Tortoise Race </h3>
+              <h3> Hare and Tortoise Race <FontAwesomeIcon icon={faExternalLinkAlt} /></h3>
               <p> A Simulation Game built with HTML 5, CSS and jQuery </p>
             </div>
           </div>
@@ -343,7 +346,7 @@ class App extends React.Component {
               />
             </div>
             <div className="project-description">
-              <h3> 3 x 3 Puzzle Game </h3>
+              <h3> 3 x 3 Puzzle Game <FontAwesomeIcon icon={faExternalLinkAlt} /></h3>
               <p>
                 {" "}
                 A Puzzle Game built with HTML 5, CSS and jQuery. The objective
@@ -405,7 +408,7 @@ class App extends React.Component {
               />
             </div>
             <div className="project-description">
-              <h3> The Eatery Website </h3>
+              <h3> The Eatery Website <FontAwesomeIcon icon={faExternalLinkAlt} /></h3>
               <p>
                 {" "}
                 A website built with HTML5 and CSS3 combining the latest modules

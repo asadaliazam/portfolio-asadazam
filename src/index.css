@@ -19,6 +19,10 @@ svg
   color: white;
 }
 
+h3 svg {
+  color: black;
+}
+
 header h2
 {
   margin-left: 2rem;
