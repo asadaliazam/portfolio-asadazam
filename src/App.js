@@ -251,7 +251,7 @@ class App extends React.Component {
           
             <div
               className="project"
-              onClick={() => window.open("http://www.eduvisors.ca/", "_blank")}
+              onClick={() => window.open("https://eduvisors.herokuapp.com/", "_blank")}
             >
               <div className="project-image">
                 <img
