@@ -291,7 +291,7 @@ class App extends React.Component {
           <div
             className="project"
             onClick={() =>
-              window.open("http://diamondcarcareinc.com/", "_blank")
+              window.open("http://asadazam.website/diamondcar/", "_blank")
             }
           >
             <div className="project-image">
